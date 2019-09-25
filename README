@@ -1,0 +1,32 @@
+========================================================
+Autmorphism Geometric Decomposition Program (Geomdecomp)
+========================================================
+
+What is this program for?:
+
+Finding a subset of the set of node clusters that can possibly exist on a 
+graph to aid numerical simulations of cluster stability in large networks.
+
+What are the dependencies?:
+
+You'll need to install Sage(Math) (http://doc.sagemath.org/html/en/installation/).
+I highly recommend you do this on a linux-based machine and, if possible, put Sage
+inside your PATH. However, if you don't have access to administrative rights, you 
+can install Sage locally and follow the procedure below.
+
+What do I have to do to use this program?:
+
+1. Install Sage via their installation guide. It's relatively straightforward and 
+automated. I recommend installing from their pre-built binaries.
+2. Navigate to the directory that the folder 'geomdecomp' is located in via terminal.
+If Sage is in your PATH, simple type 'sage geomdecomp.py'. If not, navigate to the 
+directory where sage.sh is located (in your sage installation) and type 
+'./sage DIRECTORY/TO/geomdecomp.py', replacing DIRECTORY/TO/ with the correct path on 
+your computer.
+
+NOTE: You may need to remake bliss inside 'DIRECTORY/TO/geomdecomp/bliss-0.73/'.
+Simple navigate to the folder 'DIRECTORY/TO/geomdecomp/bliss-0.73/' and type 'make'.
+
+This program was produced/tested using Sage 8.2 on Ubuntu 18.04 LTS, 64bit.
+You can email me at ostler.bricker@gmail.com if you encounter any difficulties.
+

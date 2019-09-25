@@ -1,0 +1,41 @@
+=============
+DOCUMENTATION
+=============
+
+Program input: A text file containing the adjacency matrix of a (multi)graph.
+
+Program output: Several possibilities, depending on which functions you call.
+You can get...
+
+1. The geometric decomposition (represented as isomorphisms to S_n). More complex
+groups that aren't symmetric groups (don't have a natural symmetric group action) 
+are called "complex motifs" by the program.
+
+2. The group orbits over the symmetric motifs (equivalence classes of vertices, i.e
+the vertices that can be permuted onto one another in a symmetric motif without 
+affecting network adjacency).
+
+3. The size of the automorphism group.
+
+4. A list of generators of the automorphism group, represented as permutations in 
+cycle notation.
+
+5. The number of generators of the automorphism group.
+
+6. A plot of the graph and the orbits on each symmetric motif, distinguished by color.
+Note that you can customize many properties of the plot, including whether to show 
+vertex labels, edge weights, and what DPI the plot should be.
+
+Each of these can be obtained by either calling their respective methods in the 
+AutomorphismGroup class or by calling the method "decomposition" with "verbose = True".
+
+=============
+
+See the example scripts to understand how to implement AutomorphismGroup. Please note that 
+unless you run your script in the same folder as "/bliss-0.73/," you'll have to specify 
+the path to this folder when calling the decomposition method.
+
+The program also contains two methods that may be useful to those interested in 
+fractal and modular fractal graphs. For information on the method for generating 
+fractal matrices, see [SAW17], and for modular fractal matrices, see [KRI17];
+both in Aigaion.
