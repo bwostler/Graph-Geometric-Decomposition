@@ -2,6 +2,8 @@
 Autmorphism Geometric Decomposition Program (Geomdecomp)
 ========================================================
 
+Created in the Nonlinear Dynamics and Control Group at the Technical University of Berlin.
+
 What is this program for?:
 
 Finding a subset of the set of node clusters that can possibly exist on a 
@@ -29,4 +31,3 @@ Simple navigate to the folder 'DIRECTORY/TO/geomdecomp/bliss-0.73/' and type 'ma
 
 This program was produced/tested using Sage 8.2 on Ubuntu 18.04 LTS, 64bit.
 You can email me at ostler.bricker@gmail.com if you encounter any difficulties.
-
